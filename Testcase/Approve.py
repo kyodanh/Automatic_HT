@@ -52,6 +52,10 @@ class Approve(unittest.TestCase):
         # chuyển đổi qua tab mới để focus
         driver.execute_script("window.scrollTo(0, 800)")
 
+    # def test_7_Click(self):
+    #     driver = self.driver
+    #     time.sleep(0.8)
+
 
     @classmethod
     def tearDownClass(cls):
